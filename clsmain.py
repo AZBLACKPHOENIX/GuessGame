@@ -1,5 +1,5 @@
 class mainclass:
-    def __init__(game, p1, p2, cpu, p_turns, game_start, game_end, ran_value, p_input):
+    def __init__(game, p1, p2, cpu, p_turns, game_start = 0, game_end, ran_value, p_input):
         game.p1 = p1
         game.p2 = p2
         game.cpu = cpu
